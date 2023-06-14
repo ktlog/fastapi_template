@@ -1,9 +1,6 @@
-# FastAPI Example Project
-Some people were searching my GitHub profile for project examples after reading the article on [FastAPI best practices](https://github.com/zhanymkanov/fastapi-best-practices).
-Unfortunately, I didn't have useful public repositories, but only my old proof-of-concept projects. 
+# FastAPI template
+It's based on [FastAPI best practices](https://github.com/zhanymkanov/fastapi-best-practices). 
 
-Hence, I have decided to fix that and show how I start projects nowadays, after getting some real-world experience. 
-This repo is kind of a template I use when starting up new FastAPI projects:
 - production-ready
   - gunicorn with dynamic workers configuration (stolen from [@tiangolo](https://github.com/tiangolo))
   - Dockerfile optimized for small size and fast builds with a non-root user
